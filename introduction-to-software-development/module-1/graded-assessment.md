@@ -1,6 +1,6 @@
 # Module Quiz: Getting Started with Java
 
-This document contains the answers and explanations for the module quiz on getting started with Java.
+This document contains the answers and explanations for the module quiz on "Getting Started with Java".
 
 ---
 
@@ -19,11 +19,11 @@ That’s correct. When we use the compound assignment operator `-=`, it subtract
 ## 2. Select the correct output for the following code:
 
 public class Main {
-public static void main(String[] args) {
-int num = 20;
-boolean result = num != 15;
-System.out.println(result);
-}
+    public static void main(String[] args) {
+        int num = 20;
+        boolean result = num != 15;
+        System.out.println(result);
+    }
 }
 
 
@@ -115,10 +115,10 @@ That’s correct. `&&` is the logical AND operator. This operator evaluates to �
 ## 9. Select the correct output for the following code:
 
 public class Main {
-public static void main(String[] args) {
-int remainder = 22 % 6;
-System.out.println(remainder);
-}
+    public static void main(String[] args) {
+        int remainder = 22 % 6;
+        System.out.println(remainder);
+    }
 }
 
 

@@ -7,11 +7,11 @@ This document contains the answers and explanations for the knowledge check on "
 ## 1. In the following code block, which snippet would you insert to correctly determine the String length in Java?
 
 public class Main {
-public static void main(String[] args) {
-String text = "Java is fun!";
-int length = text.__________;
-System.out.println("The length of the string is: " + length);
-}
+    public static void main(String[] args) {
+        String text = "Java is fun!";
+        int length = text.__________;
+        System.out.println("The length of the string is: " + length);
+    }
 }
 
 
@@ -28,11 +28,11 @@ That's correct. The `length()` method returns the number of characters in a Stri
 ## 2. While formatting a document, you’re asked to replace all instances of the word "old" with the word "new". You’ve been provided with the following code. What method would you insert to make the required changes?
 
 public class Main {
-public static void main(String[] args) {
-String document = "This is an old document. The old content needs to be updated.";
-String updatedDocument = document.__________("old", "new");
-System.out.println(updatedDocument);
-}
+    public static void main(String[] args) {
+        String document = "This is an old document. The old content needs to be updated.";
+        String updatedDocument = document.__________("old", "new");
+        System.out.println(updatedDocument);
+    }
 }
 
 
@@ -49,14 +49,14 @@ That’s correct. The `replace()` method can replace all the occurrences of a sp
 ## 3. You are developing a user registration system and need to ensure that the first letter of a username is not a digit. You are using the following code block. Which method would you insert to check the first character?
 
 public class Main {
-public static void main(String[] args) {
-String username = "1JohnDoe";
-if (Character.isDigit(username.__________(0))) {
-System.out.println("The username cannot start with a digit.");
-} else {
-System.out.println("The username is valid.");
-}
-}
+    public static void main(String[] args) {
+        String username = "1JohnDoe";
+        if (Character.isDigit(username.__________(0))) {
+            System.out.println("The username cannot start with a digit.");
+        } else {
+            System.out.println("The username is valid.");
+        }
+    }
 }
 
 
@@ -73,13 +73,13 @@ That’s correct. The `charAt(int index)` method returns the character at the sp
 ## 4. Toni is writing a Java program to set a password for the alarm system. Toni needs to compare a user's input with a stored password in a case-sensitive manner. Toni is working with the following code. Which method would Toni insert to achieve this?
 
 public class Main {
-public static void main(String[] args) {
-String storedPassword = "SecurePass123";
-String userInput = "securepass123";
-    if (storedPassword.__________(userInput)) {
-        System.out.println("Access granted.");
-    } else {
-        System.out.println("Access denied. Incorrect password.");
+    public static void main(String[] args) {
+        String storedPassword = "SecurePass123";
+        if (storedPassword.__________(userInput)) {
+            System.out.println("Access granted.");
+        } else {
+            System.out.println("Access denied. Incorrect password.");
+        }
     }
 }
 

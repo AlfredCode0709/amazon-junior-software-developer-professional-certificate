@@ -19,11 +19,11 @@ That's correct. This declares an integer variable `yearsOld` and initializes it 
 ## 2. What will be the output of the following code?
 
 public class SampleCode {
-public static void main(String[] args) {
-int age = 12;
-String name = "Tom";
-System.out.println("Age: " + age + ", Name: " + name);
-}
+    public static void main(String[] args) {
+        int age = 12;
+        String name = "Tom";
+        System.out.println("Age: " + age + ", Name: " + name);
+    }
 }
 
 - A. Age: 12 Name Tom  
@@ -66,12 +66,12 @@ That's correct. This correctly declares a `char` variable with the single letter
 ## 5. What is the output of the following code?
 
 public class SampleCode {
-public static void main(String[] args) {
-int a = 5;
-int b = 10;
-int sum = a + b;
-System.out.println("Sum: " + sum);
-}
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+        int sum = a + b;
+        System.out.println("Sum: " + sum);
+    }
 }
 
 - A. Sum: a + b  
